@@ -15,11 +15,13 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h2 role='banner'>Cannabis Strain Information</h2>
-  <p id='intro'>Welcome to the Cannabis selection site. Start off with select your desire effect.
-    From there, select any name for more information! Happy Hunting!
-  </p>
-  <div class='dropdown' role='links navigation'>
+  <header>
+    <h2 role='banner'>Cannabis Strain Information</h2>
+    <p id='intro'>Welcome to the Cannabis selection site. Start off with select your desire effect.
+      From there, select any name for more information! Happy Hunting!
+    </p>
+  </header>
+  <nav class='dropdown' role='links navigation'>
     <img class='dropbtn' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZRzQ4YkvRUY0_RZBWwpoF5UcWwC3qDvTdjjZP_FlGSEsLoXJI'>
     <div class='dropdown-content'>
       <div class='navLink topTab'>⬇Links for you⬇</div>
@@ -28,59 +30,60 @@
       <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/difference-between-medical-recreational-cannabis'>Medical vs. Recreational?</a>
       <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/cannabis-edibles-dosage-guide-chart'>Edibles Dosing Chart</a>
     </div>
-  </div>
-  <div id='dropdown2' role='desire buttons'>
-    <img class='dropbtn-effects' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png'>
-    <div class='dropdown-effectscontent'>
-      <div class='button top'>⬇Pick your desire effect⬇</div>
-      <button class='button submit-effect'
-      type='button'>Relaxed</button>
-      <button class='button submit-effect'
-      type='button'>Happy</button>
-      <button class='button submit-effect'
-      type='button'>Creative</button>
-      <button class='button submit-effect'
-      type='button'>Sleepy</button>
-      <button class='button submit-effect'
-      type='button'>Stress</button>
-      <button class='button submit-effect'
-      type='button'>Depression</button>
+  </nav>
+  <main>
+    <div id='dropdown2' role='desire buttons'>
+      <img class='dropbtn-effects' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png'>
+      <div class='dropdown-effectscontent'>
+        <div class='button top'>⬇Pick your desire effect⬇</div>
+        <button class='button submit-effect'
+        type='button'>Relaxed</button>
+        <button class='button submit-effect'
+        type='button'>Happy</button>
+        <button class='button submit-effect'
+        type='button'>Creative</button>
+        <button class='button submit-effect'
+        type='button'>Sleepy</button>
+        <button class='button submit-effect'
+        type='button'>Stress</button>
+        <button class='button submit-effect'
+        type='button'>Depression</button>
+      </div>
     </div>
-  </div>
-  <div id='container_Cannabis' role='main'>
-    <img class='imgCannabis' src="https://preview.ibb.co/k4UK6y/baking_1293986_960_720.png" alt="baking_1293986_960_720" border="0">
-    <div class='desire-box'>
-      <button class='submit-effect desire1'
-     type='button'>Relaxed</button>
-    </div>
-    <div class='desire-box'>
-      <button class='submit-effect desire2'
-     type='button'>Happy</button>
-    </div>
-    <div class='desire-box'>
-      <button class='submit-effect desire3'
-     type='button'>Creative</button>
-    </div>
-    <div class='desire-box'>
-      <button class='submit-effect desire4'
-     type='button'>Sleepy</button>
-    </div>
-    <div class='desire-box'>
-      <button class='submit-effect desire5'
-     type='button'>Stress</button>
-    </div>
-    <div class='desire-box'>
-      <button class='submit-effect desire6'
-     type='button'>Depression</button>
-    </div>
-    <section id='mainResult'>
-      <div class='results-title'>Name | Race</div>
-         <ul class='effect-results'></ul>
+    <section id='container_Cannabis' role='main'>
+      <img class='imgCannabis' src="https://preview.ibb.co/k4UK6y/baking_1293986_960_720.png" alt="baking_1293986_960_720" border="0">
+      <div class='desire-box'>
+        <button class='submit-effect desire1'
+       type='button'>Relaxed</button>
+      </div>
+      <div class='desire-box'>
+        <button class='submit-effect desire2'
+       type='button'>Happy</button>
+      </div>
+      <div class='desire-box'>
+        <button class='submit-effect desire3'
+       type='button'>Creative</button>
+      </div>
+      <div class='desire-box'>
+        <button class='submit-effect desire4'
+       type='button'>Sleepy</button>
+      </div>
+      <div class='desire-box'>
+        <button class='submit-effect desire5'
+       type='button'>Stress</button>
+      </div>
+      <div class='desire-box'>
+        <button class='submit-effect desire6'
+       type='button'>Depression</button>
+      </div>
+      <section id='mainResult'>
+        <div class='results-title'>Name | Race</div>
+           <ul class='effect-results'></ul>
+      </section>
+      <summary id='container-ExtraInfo' role='complementary'>
+      </summary>
     </section>
-    <div id='container-ExtraInfo' role='complementary'>
-    </div>
-  </div>
-
+  </main>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
