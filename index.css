@@ -1,0 +1,400 @@
+body, button {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background: white;
+}
+h2 {
+  text-align: center;
+  margin-top: 5px;
+  font-family: 'Merienda', cursive;
+}
+#intro {
+  text-align: center;
+  width: 65%;
+  margin: -10px auto 5px;
+}
+.dropbtn{
+  position: absolute;
+  top: -114px;
+  right: 0;
+  width: 65px;
+  margin: 0;
+  padding: 5px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: green;
+    font-size: 11px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-decoration: underline;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.dropdown-content a:focus {
+  font-size: 14px;
+}
+.dropdown-content div {
+  color: green;
+  font-size: 11px;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#badtab {
+  white-space: nowrap;
+}
+.dropbtn-effects, .dropdown-effectscontent {
+  display: none;
+}
+#cannabisInfo {
+  text-align: center;
+}
+.imgCannabis {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container_Cannabis {
+  position: relative;
+  width: 80%;
+  height: 550px;
+  margin: -15px auto 0;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  background-color: white;
+  /* border: 2px solid blue; */
+}
+#mainResult{
+  margin: -408px auto;
+  width: 292px;
+  height: 325px;
+  overflow-y: scroll;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid green;
+  background: white;
+
+}
+.results-title {
+  position: absolute;
+  width: 290px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 0 0 -5px 0;
+  padding-top: 3px;
+  background-color: white;
+}
+
+.submit-effect {
+  border: 2px solid green;
+  padding: 7px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: .8em;
+  cursor: pointer;
+}
+.desire1 {
+  position: absolute;
+  top: 228px;
+  left: 20.3%;
+}
+.desire2 {
+  position: absolute;
+  bottom: 90px;
+  left: 25%;
+}
+.desire3 {
+  position: absolute;
+  top: 82px;
+  left: 46.7%;
+}
+.desire4 {
+  position: absolute;
+  top: 227px;
+  right: 21%;
+}
+.desire5 {
+  position: absolute;
+  bottom: 90px;
+  right: 25.4%;
+}
+.desire6 {
+  position: absolute;
+  bottom: 18px;
+  right: 45.9%;
+}
+
+.effect-results {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+.effect-result-item {
+  width: 100%;
+  margin: 0 auto 0;
+  padding: 5px 0;
+  background-color: white;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.effect-id {
+  visibility: hidden;
+}
+#CannabisExtraInfo {
+  margin: 7% auto;
+  width: 299px;
+  height: 327px;
+  padding: 10px;
+  font-size: 1.26em;
+  overflow: scroll;
+  background: #24ad36;
+  background: -webkit-linear-gradient(-55deg, #25a03e 0%, #0e561c 100%) #00802a;
+  background: -moz-linear-gradient(-55deg, #25a03e 0%, #0e561c 100%) #00802a;
+  background: -ms-linear-gradient(-55deg, #25a03e 0%, #0e561c 100%) #00802a;
+  background: linear-gradient(145deg, #25a03e 0%, #0e561c 100%) #00802a;
+  border-radius: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.37);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 2;
+  opacity: .9;
+}
+.id-result {
+  list-style-type: none;
+  margin: 7px 0px;
+  padding: 0px;
+}
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 1065px)  {
+  .imgCannabis {
+    width: 80%;
+  }
+  .desire1 {
+    top: 259px;
+  }
+  .desire2 {
+    left: 23%;
+  }
+  .desire3 {
+    top: 86px;
+    left: 46%;
+  }
+  .desire4 {
+    top: 259px;
+  }
+  .desire5 {
+    right: 23%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .imgCannabis {
+    width: 90%;
+  }
+  #intro {
+    font-size: 14px;
+    width: 65%;
+  }
+  .dropbtn {
+    top: -108px;
+  }
+  .dropdown-content {
+    top: -34px;
+    right: 0;
+    font-size: 14px;
+    z-index: 3;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #extraIntro {
+    left: 90px;
+  }
+  .desire1 {
+    left: 16%
+  }
+  .desire2 {
+    left: 19%;
+  }
+  .desire4 {
+    right: 16%;
+  }
+  .desire5 {
+    right: 19%;
+  }
+  #CannabisExtraInfo {
+    margin: 16% auto;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .imgCannabis {
+    width: 100%;
+  }
+  .desire1 {
+    left: 12%;
+  }
+  .desire2 {
+    left: 15%;
+  }
+  .desire3 {
+    left: 45%;
+  }
+  .desire4 {
+    right: 12%;
+  }
+  .desire5 {
+    right: 15%;
+  }
+  .desire6 {
+    left: 44%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #extraIntro {
+    left: 69px;
+  }
+  .desire1 {
+    top: 236px;
+    left: 10%;
+  }
+  .desire2 {
+    left: 13%;
+  }
+  .desire4 {
+    top: 236px;
+    right: 10%;
+  }
+  .desire5 {
+    right: 13%;
+  }
+  #CannabisExtraInfo {
+    margin: 21% auto;
+  }
+}
+@media only screen and (max-width: 696px) {
+  .dropbtn {
+    top: -127px;
+  }
+  .dropdown-content {
+    top: -50px;
+  }
+}
+@media only screen and (max-width: 682px) {
+  .desire-box {
+    display: none;
+  }
+  .top {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px auto;
+  }
+  .button {
+    border: none;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid lightgray;
+  }
+  .dropbtn-effects{
+    display: initial;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 65px;
+    margin: 0;
+    padding: 5px;
+  }
+  .dropdown-effectscontent {
+      display: none;
+      position: absolute;
+      top: 75px;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 2;
+  }
+  .dropdown-effectscontent button {
+      color: green;
+      font-size: 11px;
+      padding: 6px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .dropdown-effectscontent button:hover {background-color: #ddd;}
+
+  #dropdown2:hover .dropdown-effectscontent {display: block;}
+
+  #dropdown2:hover .dropbtn-effects {background-color: #3e8e41;}
+}
+@media only screen and (max-width: 600px) {
+  .dropbtn-effects {
+    width: 48px;
+  }
+  .dropdown-effectscontent {
+    top: 58px;
+  }
+  .dropbtn {
+    width: 48px;
+  }
+  .dropdown-content {
+    top: -69px;
+  }
+  #mainResult {
+    top: 0;
+  }
+  #CannabisExtraInfo  {
+    margin: 24% auto;
+    width: 70%;
+    height: 70%;
+  }
+}
+@media only screen and (max-width:  466px) {
+  h2 {
+    font-size: 19px;
+  }
+  .dropbtn {
+    top: -135px;
+  }
+  .dropdown-content {
+    top: -75px;
+  }
+}
+@media only screen and (max-width: 436px) {
+  #mainResult {
+    width: 85%;
+    font-size: 90%;
+  }
+  .results-title {
+    width: 85%;
+  }
+}
