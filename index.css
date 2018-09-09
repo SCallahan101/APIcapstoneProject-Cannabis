@@ -4,9 +4,10 @@ body, button {
   font-family: 'Nunito', sans-serif;
   background: white;
 }
-h2 {
+h1 {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
+  font-size: 24px;
   font-family: 'Merienda', cursive;
 }
 #intro {

@@ -15,24 +15,24 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>
-    <h2 role='banner'>Cannabis Strain Information</h2>
+  <header role='banner'>
+    <h1>Cannabis Strain Information</h1>
     <p id='intro'>Welcome to the Cannabis selection site. Start off with select your desire effect.
       From there, select any name for more information! Happy Hunting!
     </p>
   </header>
-  <nav class='dropdown' role='links navigation'>
-    <img class='dropbtn' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZRzQ4YkvRUY0_RZBWwpoF5UcWwC3qDvTdjjZP_FlGSEsLoXJI'>
-    <div class='dropdown-content'>
-      <div class='navLink topTab'>⬇Links for you⬇</div>
-      <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/what-is-cannabis-what-are-strains'>What Is Cannabis?</a>
-      <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/sativa-indica-and-hybrid-differences-between-cannabis-types' id='badtab'>Sativa vs. Indica vs. Hybrid?</a>
-      <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/difference-between-medical-recreational-cannabis'>Medical vs. Recreational?</a>
-      <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/cannabis-edibles-dosage-guide-chart'>Edibles Dosing Chart</a>
-    </div>
-  </nav>
-  <main>
-    <div id='dropdown2' role='desire buttons'>
+  <main role='main'>
+    <nav class='dropdown' role='navigation'>
+      <img class='dropbtn' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZRzQ4YkvRUY0_RZBWwpoF5UcWwC3qDvTdjjZP_FlGSEsLoXJI' alt='button'>
+      <div class='dropdown-content'>
+        <div class='navLink topTab'>⬇Links for you⬇</div>
+        <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/what-is-cannabis-what-are-strains'>What Is Cannabis?</a>
+        <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/sativa-indica-and-hybrid-differences-between-cannabis-types' id='badtab'>Sativa vs. Indica vs. Hybrid?</a>
+        <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/difference-between-medical-recreational-cannabis'>Medical vs. Recreational?</a>
+        <a class='navLink' target="_blank" href='https://www.leafly.com/news/cannabis-101/cannabis-edibles-dosage-guide-chart'>Edibles Dosing Chart</a>
+      </div>
+    </nav>
+    <div id='dropdown2'>
       <img class='dropbtn-effects' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png'>
       <div class='dropdown-effectscontent'>
         <div class='button top'>⬇Pick your desire effect⬇</div>
@@ -50,7 +50,7 @@
         type='button'>Depression</button>
       </div>
     </div>
-    <section id='container_Cannabis' role='main'>
+    <section id='container_Cannabis'>
       <img class='imgCannabis' src="https://preview.ibb.co/k4UK6y/baking_1293986_960_720.png" alt="baking_1293986_960_720" border="0">
       <div class='desire-box'>
         <button class='submit-effect desire1'
