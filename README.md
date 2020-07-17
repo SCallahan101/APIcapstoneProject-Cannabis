@@ -2,7 +2,7 @@
 Give users an exploration on cannabis strains. 
 
 Preview Link: https://scallahan101.github.io/APIcapstoneProject-Cannabis/
-Beware, the API is slow to connect. If it happens, please be patient as it connecting...
+Beware, the API is slow to connect for some reason. However, go ahead and click any of those button to start your search. If it happens, please be patient as it connecting...
 
 Preview Pic:
 ![image](https://i.gyazo.com/f011632510f3bf9719366fe8e6e91448.png)
