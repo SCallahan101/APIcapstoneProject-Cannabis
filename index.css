@@ -36,7 +36,7 @@ h1 {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 74px;
+    top: 75px;
     right: 0;
     background-color: #f1f1f1;
     min-width: 160px;
@@ -114,7 +114,10 @@ h1 {
 .results-title {
   position: sticky;
   top: 0;
-  width: 290px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* width: 290px; */
   text-align: center;
   font-size: 20px;
   text-decoration: underline;
@@ -379,7 +382,7 @@ h1 {
     width: 48px;
   }
   .dropdown-content {
-    /* top: -69px; */
+    top: 58px;
   }
   #mainResult {
     /* top: 0; */
@@ -407,7 +410,7 @@ h1 {
     font-size: 90%;
   }
   .results-title {
-    width: 85%;
+    /* width: 85%; */
   }
   #CannabisExtraInfo {
     margin: 25% auto;
