@@ -6,7 +6,9 @@ body, button {
 }
 h1 {
   text-align: center;
-  margin-top: 10px;
+  width: 70%;
+  margin: 10px auto;
+  /* margin-top: 10px; */
   font-size: 24px;
   font-family: 'Merienda', cursive;
 }
@@ -16,23 +18,25 @@ h1 {
   margin: -10px auto 5px;
 }
 .dropbtn{
-  position: absolute;
+  /* position: absolute;
   top: -114px;
-  right: 0;
+  right: 0; */
   width: 65px;
   margin: 0;
   padding: 5px;
 }
 .dropdown {
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    top: -40px;
+    top: 74px;
     right: 0;
     background-color: #f1f1f1;
     min-width: 160px;
@@ -87,12 +91,17 @@ h1 {
   position: relative;
   width: 80%;
   height: 550px;
-  margin: -15px auto 0;
+  margin: 0 auto;
   border-radius: 10px;
   background-color: white;
 }
 #mainResult{
-  margin: -408px auto;
+  /* margin: -408px auto; */
+  margin: 0 auto;
+  position: absolute;
+  top: 15em;
+  left: 0;
+  right: 0;
   width: 292px;
   height: 325px;
   overflow-y: scroll;
@@ -103,12 +112,13 @@ h1 {
 
 }
 .results-title {
-  position: absolute;
+  position: sticky;
+  top: 0;
   width: 290px;
   text-align: center;
   font-size: 20px;
   text-decoration: underline;
-  margin: 0 0 -5px 0;
+  /* margin: 0 0 -5px 0; */
   padding-top: 3px;
   background-color: white;
 }
@@ -155,7 +165,8 @@ h1 {
 .effect-results {
   list-style-type: none;
   padding: 0;
-  margin-top: 25px;
+  margin-top: 0px;
+  /* position: absolute; */
 }
 
 .effect-result-item {
@@ -228,10 +239,10 @@ h1 {
     width: 65%;
   }
   .dropbtn {
-    top: -108px;
+    /* top: -108px; */
   }
   .dropdown-content {
-    top: -34px;
+    /* top: -34px; */
     right: 0;
     font-size: 14px;
     z-index: 3;
@@ -304,10 +315,10 @@ h1 {
 }
 @media only screen and (max-width: 696px) {
   .dropbtn {
-    top: -127px;
+    /* top: -127px; */
   }
   .dropdown-content {
-    top: -50px;
+    /* top: -50px; */
   }
 }
 @media only screen and (max-width: 682px) {
@@ -368,10 +379,10 @@ h1 {
     width: 48px;
   }
   .dropdown-content {
-    top: -69px;
+    /* top: -69px; */
   }
   #mainResult {
-    top: 0;
+    /* top: 0; */
   }
   #CannabisExtraInfo  {
     margin: 15% auto;
@@ -384,10 +395,10 @@ h1 {
     font-size: 19px;
   }
   .dropbtn {
-    top: -135px;
+    /* top: -135px; */
   }
   .dropdown-content {
-    top: -75px;
+    /* top: -75px; */
   }
 }
 @media only screen and (max-width: 436px) {
