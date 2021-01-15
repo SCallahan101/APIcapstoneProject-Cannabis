@@ -199,6 +199,9 @@ h1 {
   margin: 7px 0px;
   padding: 0px;
 }
+.part2{
+  display: none;
+}
 /* ------------------------------------------------------------------------ */
 @media only screen and (max-width: 1065px)  {
   .imgCannabis {
@@ -349,6 +352,14 @@ h1 {
   #dropdown2:hover .dropdown-effectscontent {display: block;}
 
   #dropdown2:hover .dropbtn-effects {background-color: #3e8e41;}
+  .part2{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+  }
+  .part1{
+    display: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .dropbtn-effects {

@@ -41,6 +41,7 @@ function dataShowcase(data){
         <span class='effect-race'>${obj.race}</span> ※
       </li>`;
   })
+  $('.instruction').html(``);
   $('.effect-results').html(results);
 }
 
